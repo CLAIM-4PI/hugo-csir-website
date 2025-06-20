@@ -1,0 +1,145 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+#[[main]]
+#name = "About"
+#url = "/about"
+#weight = 2
+
+[[main]]
+weight = 2
+name = "Team"
+
+[[main]]
+parent = "Team"
+name = "Current Members"
+url = "/current-team"
+
+[[main]]
+parent = "Team"
+name = "Past Members"
+url = "/past-team"
+
+[[main]]
+weight = 3
+name = "Opportunities"
+
+[[main]]
+parent = "Opportunities"
+name = "Why work with us"
+url = "/why-work-with-us"
+weight = 1
+
+[[main]]
+parent = "Opportunities"
+name = "Open Positions"
+url = "/open-positions"
+weight = 2
+
+[[main]]
+parent = "Opportunities"
+name = "Testimonials"
+url = "/testimonials"
+weight = 3
+
+[[main]]
+name = "Blog"
+url = "/blog"
+weight = 3
+
+[[main]]
+name = "Publications"
+url = "/publications"
+weight = 4
+
+
+[[main]]
+name = "Connect with us" 
+url = "/contact/"      
+weight = 5      
+
+# [[main]]
+# name = "Elements"
+# url = "/elements"
+# weight = 3
+
+#[[main]]
+#weight = 4
+#name = "Pages"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Blog"
+#url = "/blog"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Contact"
+#url = "/contact"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Authors"
+#url = "/authors"
+#
+#[[main]]
+#parent = "Pages"
+#name = "Categories"
+#url = "/categories"
+#
+#[[main]]
+#parent = "Pages"
+#name = "404 Page"
+#url = "/404"
+
+
+# footer menu
+#[[footer]]
+#name = "About"
+#url = "/about"
+#weight = 1
+
+[[footer]]
+name = "Copyright"
+url = "/copyright"
+weight = 1
+
+
+[[footer]]
+name = "Terms and Conditions"
+url = "/tc"
+weight = 2
+
+[[footer]]
+name = "Disclaimer"
+url = "/disclaimer"
+weight = 3
+
+
+[[footer]]
+name = "Web Information Manager"
+url = "/wim"
+weight = 4
+
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 5
+
+[[footer]]
+name = "Hyperlinking Policy"
+url = "/hp-policy"
+weight = 6
+
+[[footer]]
+name = "Help"
+url = "/help"
+weight = 7
+
+

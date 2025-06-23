@@ -60,7 +60,7 @@ weight = 4
 
 [[main]]
 name = "Connect with us" 
-url = "/contact/"      
+url = "/connect-with-us/"      
 weight = 5      
 
 # [[main]]
